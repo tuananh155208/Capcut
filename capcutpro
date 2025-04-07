@@ -1,0 +1,6 @@
+#!name=CapCutPro
+#!desc=CapCutPro
+[Script]
+CapCutPro=type=http-response,pattern=https://api.capcut.com/v1/config,requires-body=1,script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/capcut.js
+[MITM]
+hostname=%APPEND% api.capcut.com
